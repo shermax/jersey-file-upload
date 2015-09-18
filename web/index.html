@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<div>
+    <h2>Jersey File Upload</h2>
+    <form action="/api/upload" enctype="multipart/form-data" method="POST">
+        <input type="file" name="file">
+        <input type="submit" value="Submit"/>
+    </form>
+</div>
+
+<div>
+    <h2>Spring File Upload (working)</h2>
+    <form action="/api-spring/upload" enctype="multipart/form-data" method="POST">
+        <input type="file" name="file">
+        <input type="submit" value="Submit"/>
+    </form>
+</div>
+</body>
+</html>
